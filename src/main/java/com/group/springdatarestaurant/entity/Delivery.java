@@ -12,7 +12,7 @@ public class Delivery {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", nullable = false)
-    private int id;
+    private Integer id;
     private String name;
     private Date date;
     private String address;
